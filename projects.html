@@ -1,74 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Professional Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <title>Projects</title>
+  <link rel="stylesheet" href="projectsStyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <header>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="aboutMe.html">About Me</a></li>
         <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
         <li><a href="updates.html">Updates</a></li>
       </ul>
     </nav>
   </header>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-grid">
-      <div class="project-item">
-        <a href="https://github.com/repository1">
-          <div class="project-icon">
-            <img src="project1.png" alt="Project 1">
-            <div class="project-overlay">
-              <h3>Project 1</h3>
-              <p>Project description goes here.</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="project-item">
-        <a href="https://github.com/repository1">
-          <div class="project-icon">
-            <img src="project1.png" alt="Project 1">
-            <div class="project-overlay">
-              <h3>Project 2</h3>
-              <p>Project description goes here.</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="project-item">
-        <a href="https://github.com/repository1">
-          <div class="project-icon">
-            <img src="project1.png" alt="Project 1">
-            <div class="project-overlay">
-              <h3>Project 3</h3>
-              <p>Project description goes here.</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <!-- Repeat this structure for other projects -->
-      <div class="project-item">
-        <a href="https://github.com/repository15">
-          <div class="project-icon">
-            <img src="project15.png" alt="Project 15">
-            <div class="project-overlay">
-              <h3>Project 15</h3>
-              <p>Project description goes here.</p>
-            </div>
-          </div>
-        </a>
-      </div>
+  
+  <main>
+<div class="project-container">
+  <div class="project-tile">
+    <div class="project-back">
+      <h3>Canny Edge Detection(2022)</h3>
+      <p>Canny edge detection is a popular edge detection algorithm. The algorithm involves smoothing the image with a Gaussian filter, computing the gradient magnitude and direction, suppressing non-maximum edges, and thresholding using hysteresis.</p>
+      <a href="https://github.com/shubhamshubhankar/cannyEdgeDetection">Github Repository</a>
     </div>
-  </section>
+  </div>
+  <div class="project-tile">
+    <div class="project-back">
+      <h3>Generalized Hough Transform(2022)</h3>
+      <p>The Generalized Hough Transform is an extension of the Hough Transform that allows for detection of not only simple geometrical shapes but also complex shapes.</p>
+      <a href="https://github.com/shubhamshubhankar/generalizedhoughTransform">Github Repository</a>
+    </div>
+  </div>
+  <div class="project-tile">
+    <div class="project-back">
+      <h3>Autosuggestion Using Trie(2016)</h3>
+      <p>Trie data structure is used to efficiently store and retrieve a set of strings. Autosuggestion is a common feature in text editors and search engines that suggests possible completions based on the characters entered so far.</p>
+      <a href="https://github.com/shubhamshubhankar/Auto_suggestion">Github Repository</a>
+    </div>
+  </div>
+  <div class="project-tile">
+    <div class="project-back">
+      <h3>Fast Fourier Transform with MPI(2023)</h3>
+      <p>The Fast Fourier Transform (FFT) algorithm is an efficient algorithm for computing the discrete Fourier transform (DFT) of a sequence of numbers. MPI is a popular library for implementing parallel computing applications.</p>
+      <a href="https://github.com/keremtatlici/ACA-FFT-2023">Github Repository</a>
+    </div>
+  </div>
+  <div class="project-tile">
+    <div class="project-back">
+      <h3>Motion Detection and Object Tracking for CCTV videos by extracting Contour Features in OpenCV. (2019)</h3>
+      <p>An implementation of Motion Detection and Object Tracking algorithm using OpenCV library in C++.</p>
+      <a href="https://github.com/shubhamshubhankar/CCTV-Object-Detection-and-Tracking">Github Repository</a>
+    </div>
+  </div>
 
-  <script src="script.js"></script>
+  <div class="project-tile">
+    <div class="project-back">
+      <h3>Java-based Text Indexing Application(2015)</h3>
+      <p>This is a Java program for text indexing, which takes in a file containing names of files to be indexed, scans each file to extract the words and assigns a document number to each file. It then builds a hash map to map each unique word to the document number(s) where it appears. he program also implements stop word removal and stemming to improve the quality of the indexed words. </p>
+      <a href="https://github.com/shubhamshubhankar/Indexer">Github Repository</a>
+    </div>
+  </div>
+  
+  <div class="project-tile">
+    <div class="project-back">
+      <h3>AutoSource (2019)</h3>
+      <p>It can be used for effectively finding the vulnerabilities at very early stage of the SDLC(Software Development Life Cycle). The user can scan the code by just giving GIT repository link into the framework.
+AutoSource framework is capable of performing source code review on all platforms(MAC, Linux and Windows).
+</p>
+      <a href="https://github.com/shubhamshubhankar/autoSource">Github Repository</a>
+    </div>
+  </div>
+
+  <div class="project-tile">
+    <div class="project-back">
+      <h3>DumpTheGit(2019)</h3>
+      <p>The tool will flag the matches for potentially sensitive files like credentials, secret keys, tokens etc which have been accidentally uploaded by the developers. DumpTheGit just require your Github Access Token to fetch the information.</p>
+      <a href="https://github.com/shubhamshubhankar/dumpTheGit">Github Repository</a>
+    </div>
+  </div>
+
+  </main>
 </body>
 </html>
 
